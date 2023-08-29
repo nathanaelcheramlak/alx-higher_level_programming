@@ -6,8 +6,7 @@ class Square:
     """Defines a square."""
 
     def __str__(self):
-        """Returns string representation."""
-        return self.my_sprint()[:-1]
+        self.my_print()
 
     def __init__(self, size=0, position=(0, 0)):
         """Constructor.
